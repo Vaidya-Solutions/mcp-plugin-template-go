@@ -1,33 +1,21 @@
-## 2) `mcp-plugin-template-go/README.md`
-
-````markdown
 # mcp-plugin-template-go
 
-A **minimal, production-leaning template** for building MCP tools in Go.
+A minimal, production-ready template for building MCP (Model Context Protocol) tools in Go.
 
-> **Status:** Skeleton — meant for quick cloning and customization.
+## Features
 
-## What you get (soon)
-- Clean `internal/` layout (config, log, validation, tools)
-- `slog` logging and error wrapping (`%w`)
-- Validator v10 hooks (centralized validation)
-- Ready for OpenTelemetry (traces/metrics)
-- GitHub Actions starter (lint/test/build)
-- SECURITY.md / CODE_OF_CONDUCT.md (to be added)
+- Clean `internal/` package structure (config, logging, validation, tools)
+- Structured logging with `slog`
+- Centralized validation using Validator v10
+- OpenTelemetry integration ready (traces/metrics)
+- GitHub Actions CI/CD starter workflows
+- Community health files (SECURITY.md, CODE_OF_CONDUCT.md)
 
-## Quick start (coming soon)
-```bash
-# Clone, rename module, run a hello-world tool
-````
+## Getting Started
 
-## Customize
+### Prerequisites
 
-Search for `TODO(you)` markers to rename module paths, tool IDs, and metadata.
+- Go 1.21 or higher
+- Git
 
-## Contributing
-
-Open issues for template gaps or ergonomics improvements.
-
-## License
-
-MIT © Vaidya Solutions
+### Installation
